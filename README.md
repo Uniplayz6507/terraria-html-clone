@@ -1,23 +1,15 @@
-# Terraforge
+# Terraforge: Wildlands
 
-A small, original browser sandbox adventure inspired by the genre of 2D mining and building games. It is not affiliated with Terraria and uses no Terraria assets.
+This is now a much larger original browser sandbox, not a tiny proof of concept. It is inspired by the 2D mining/building genre but does not use Terraria code, names, or assets.
 
 ## Play
-Open `index.html` directly, or serve the folder with any static server:
+Open `index.html`, or run `python3 -m http.server 8080` and visit `http://localhost:8080`.
 
-```bash
-python3 -m http.server 8080
-```
+## Included
+Procedural world generation, multiple ores and materials, trees, caves, mining, building, platform collision, jumping, melee combat, slimes, bats, animated player, particles, camera follow, day/night tint, minimap, inventory, hotbar, crafting, iron sword upgrade, grappling fuel, local save/load, boss zone, responsive UI, and no dependencies.
 
-Then visit `http://localhost:8080`.
+## Controls
+WASD or arrows move, Space jumps, left click attacks/mines, right click places, E inventory, F grappling movement, K saves, R respawns after death.
 
-## Current build
-- Procedural pixel-style world with grass, dirt, stone, copper, crystal, trees, and caves-in-progress
-- WASD/arrow movement, jumping, collision, camera follow, day/night tint
-- Mouse mining and right-click building
-- Animated player sprite and bouncing slimes
-- Health, mana, hotbar, collection, particles, and basic crafting prompt
-- Zero dependencies and no external assets, so it is easy to edit and deploy
-
-## Roadmap
-This is the foundation for a larger game, not a claim to reproduce every Terraria system. Next good slices: save/load, inventory UI, recipes, equipment, biomes, bosses, lighting, audio, multiplayer, and a proper sprite atlas. Keep additions modular so future edits stay manageable.
+## Next big slices
+Boss AI and attacks, lighting, more biomes, NPC housing, recipe tree, equipment slots, liquids, wiring, sound/music, controller support, multiplayer, and a real sprite atlas. The code is deliberately one-file and dependency-free so future edits stay fast.
